@@ -1,0 +1,92 @@
+h1,
+h2,
+h3 {
+  font-family: Montserrat;
+}
+p {
+  font-family: Inter;
+}
+img {
+  max-width: 100%;
+}
+figure {
+  max-width: 100%;
+  margin: 0px;
+}
+li {
+  list-style: none;
+}
+p {
+  overflow-wrap: break-word;
+  hyphens: auto;
+  text-wrap: balance;
+  line-height: 30px;
+}
+
+nav ul {
+  background-color: #c5e0df;
+  padding: 1em;
+  margin: 0;
+  line-height: 25px;
+  font-family: Inter;
+  font-size: 1rem;
+  list-style: none;
+}
+nav li a {
+  color: #5b8b83;
+  padding: 0.5rem 1rem;
+}
+nav li a:hover {
+  background-color: #5b8b83;
+  color: white;
+  border-radius: 4px;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+.cta-knap {
+  color: #5b8b83;
+  background-color: #c5e0df;
+  padding: 10px 16px; /* top/bund højre/venstre */
+  margin: 1em;
+  border-radius: 4px; /* Runder boxen*/
+  display: block;
+  font-family: Montserrat;
+  text-decoration: none;
+  border: 5px double;
+}
+.cta-knap:hover {
+  color: #c5e0df;
+  background-color: #5b8b83;
+}
+h2 {
+  background-color: #c5e0df;
+  color: #5b8b83;
+  padding: 5px;
+  border-radius: 5px;
+}
+h1 {
+  background-color: #c5e0df;
+  color: #5b8b83;
+  padding: 5px;
+  border-radius: 5px;
+}
+dt {
+  font-family: Montserrat;
+  padding: 5px;
+  font-weight: bold;
+  color: #5b8b83;
+}
+dd {
+  color: #5b8b83;
+}
+dl {
+  border: 5px;
+  border-style: dotted;
+  border-radius: 20px;
+  border-color: #c5e0df;
+}
+figcaption {
+  font-style: italic;
+}
