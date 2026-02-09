@@ -1,0 +1,106 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+}
+@font-face {
+  font-family: Inter;
+  src: url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+}
+h1,
+h2,
+h3 {
+  font-family: Montserrat;
+}
+p {
+  font-family: Inter;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  text-wrap: balance;
+  line-height: 30px;
+}
+img {
+  max-width: 100%;
+}
+figure {
+  margin: 0px;
+}
+figcaption {
+  font-style: italic;
+  font-family: Inter;
+  font-size: x-small;
+}
+a {
+  text-decoration: none;
+}
+nav ul {
+  background-color: #c5e0df;
+  padding: 1em;
+  margin: 0;
+  line-height: 25px;
+  font-family: Inter;
+  font-size: 1rem;
+  list-style: none;
+}
+nav li a {
+  color: #5b8b83;
+  padding: 0.5rem 1rem;
+}
+nav li a:hover {
+  background-color: #5b8b83;
+  color: white;
+  border-radius: 4px;
+  display: block;
+}
+.cta-knap {
+  color: #5b8b83;
+  background-color: #c5e0df;
+  padding: 10px 16px; /* top/bund højre/venstre */
+  margin: 1em;
+  border-radius: 4px; /* Runder boxen*/
+  display: block;
+  font-family: Montserrat;
+  text-decoration: none;
+  border: 5px double;
+}
+.cta-knap:hover {
+  color: #c5e0df;
+  background-color: #5b8b83;
+}
+h1 {
+  background-color: #c5e0df;
+  color: #5b8b83;
+  padding: 5px;
+  border-radius: 5px;
+}
+h2 {
+  background-color: #c5e0df;
+  color: #5b8b83;
+  padding: 5px;
+  border-radius: 5px;
+}
+dt {
+  font-family: Montserrat;
+  padding: 5px;
+  font-weight: bold;
+  color: #5b8b83;
+}
+dd {
+  color: #5b8b83;
+}
+dl {
+  border: 5px;
+  border-style: dotted;
+  border-radius: 20px;
+  border-color: #c5e0df;
+}
+ul li {
+  font-family: Inter;
+  line-height: 30px;
+}
+footer {
+  background-color: #c5e0df;
+  font-family: Inter;
+  margin-top: 40px;
+  padding: 2em;
+  text-align: center;
+}
